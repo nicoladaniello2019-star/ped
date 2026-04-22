@@ -11,7 +11,7 @@ r1 = st.radio(
 
 
 if st.button("Verifica"):
-    if r1 == "Macedonia del sud": 
+    if r1 == "Macedonia del nord": 
         st.success("Corretto!")
     else:
         st.error("Sbagliato, riprova!")
